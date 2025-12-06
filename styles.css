@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "roboto";
+  src: url("./resources/roboto-fontfacekit/Roboto-Black-webfont.woff");
+}
+
+a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* HEADER MAIN ELEMENTS */
+
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-family: "roboto";
+    padding: 10px 150px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60px
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li a {
+    font-size: 18px;
+    color: #bbbdc1;
+    font-weight: lighter;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    margin-right: auto;
+}
+/* END OF HEADER MAIN ELEMENTS */
+
+/* HEADER CLASSES */
+.btn {
+    background-color: blue; 
+    color: white; 
+    border-radius: 8%; 
+    padding: 5px 20px;
+    align-self: flex-start;
+    border: 1px solid white;
+    transition: all 0.3s ease;
+
+}
+
+.btn:hover {
+    background-color: darkblue;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.hero {
+    display: flex;
+    gap: 25px;
+  
+}
+
+.left-hero {
+ display: flex;
+ flex-flow: column ;
+ gap: 10px;
+}
+
+.left-nav  h1 {
+    font-size: 24px;
+}
+
+.left-hero h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.left-hero p {
+    font-size: 18px;
+    color: #bbbdc1;
+    margin: 0;
+}
+
+.right-hero, .left-hero {
+   flex: 1;
+}
+
+.right-hero {
+    background-color: rgb(147, 147, 147);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* END OF HEADER CLASSES */
