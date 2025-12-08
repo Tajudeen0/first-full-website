@@ -54,7 +54,7 @@ ul {
 .btn {
     background-color: blue; 
     color: white; 
-    border-radius: 8%; 
+    border-radius: 0.6em; 
     padding: 5px 20px;
     align-self: flex-start;
     border: 1px solid white;
@@ -107,6 +107,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* border-radius: 5%; */
 }
 
 /* END OF HEADER CLASSES */
@@ -159,6 +160,18 @@ main {
     margin-bottom: 100px;
 }
 
+.final-cta {
+    background-color: #3882f6;
+    padding: 3% 10%;
+    margin: 3em 7em;
+    color: #f9faf8;
+    border-radius: 0.7em;
+}
+
+.final-cta h3 {
+    margin: 0;
+}
+
 .info {
     align-self: center;
     font-size: 36px;
@@ -167,6 +180,11 @@ main {
     font-family: "roboto";
 }
 
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .quote {
     background-color: #E5E7EB;
