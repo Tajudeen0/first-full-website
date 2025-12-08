@@ -139,6 +139,7 @@ main {
 .author {
     align-self: flex-end;
     margin-right: 10%;
+    font-weight: 600;
 }
 
 .card {
@@ -164,12 +165,17 @@ main {
     background-color: #3882f6;
     padding: 3% 10%;
     margin: 3em 7em;
-    color: #f9faf8;
     border-radius: 0.7em;
 }
 
 .final-cta h3 {
     margin: 0;
+    color: #f9faf8;
+}
+
+.final-cta p {
+    color: #e5e7eb;
+
 }
 
 .info {
@@ -209,19 +215,21 @@ main {
 /* ......................................................................................... */
 
 /* FOOTER MAIN ELEMENTS */
+footer {
+
+    padding: 2em 1em;
+    display: flex;
+    background-color: #172937 ;
+    color: #E5E7EB;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
 
 
+/* END OF FOOTER MAIN ELEMENTS */
 
-/* END OF FOOTER MAIN CLASSES */
-
-
-
-
-
-
-
-/* FOOTER CLASSES */
-
+/* START OF FOOTER CLASSES */
 
 
 /* END OF FOOTER CLASSES */
